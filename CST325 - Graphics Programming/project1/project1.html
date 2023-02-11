@@ -1,0 +1,96 @@
+<html>
+
+    <head>
+        <title>Project 1</title>
+
+        <script>
+            //Name: Bailey Miller
+            //Date: 8/28/22
+            //Abstract: Falling box HTML page
+
+            //made global variables to access easily
+            var myCanvas;
+            var sceneList = [];
+            var currentFrameNumber = 0;
+
+            function updateAndDraw() {
+                var tempX = Math.floor(Math.random() * 300);
+                var tempY = Math.floor(Math.random() * 300);
+                var tempColor = "rgb(" + (Math.floor(Math.random() * 255)+1) + ", " + (Math.floor(Math.random() * 100)+1) + ", " + (Math.floor(Math.random() * 255)+1) + ")"; //string value for color
+                var updatedRectangleInstance = new Rectangle(tempX, tempY, tempColor);
+                updatedRectangleInstance.draw();
+
+                currentFrameNumber = currentFrameNumber + 1;
+
+                for(var i = 0; i < sceneList.length; i++){
+                    sceneList[i].draw;
+                }
+                window.requestAnimationFrame(updateAndDraw);
+
+                console.log(currentFrameNumber); //I updated the number but waited until after the loop to log it to the console for debugging purposes
+
+                updateStats();
+            }
+
+            //init function to be run on load
+            function init(){
+                console.log("Hello World!");
+                myCanvas = document.getElementById("canvasTag");
+
+                var newRectangleInstance0 = new Rectangle(20, 20, "rgb(0, 0, 0)");
+
+                newRectangleInstance0.draw();
+
+                var newRectangleInstance1 = new Rectangle(120, 20, "rgb(255, 0, 255)");
+
+                newRectangleInstance1.draw();
+
+                var newRectangleInstance2 = new Rectangle(220, 20, "rgb(0, 0, 255)");
+
+                newRectangleInstance2.draw();
+
+                updateAndDraw();
+            }
+
+            //Rectangle object function
+            function Rectangle(x, y, color){
+                this.x = x;
+                this.y = y;
+                this.color = color;
+                
+                //draw method (not entirely sure if this belongs here)
+                this.draw = function draw(){
+                    var mySquare = myCanvas.getContext("2d");
+                    mySquare.fillStyle = this.color;
+                    mySquare.fillRect(this.x, this.y, 50, 50);
+                    mySquare.strokeRect(this.x, this.y, 50, 50);
+                }
+                
+                sceneList.push(this);
+            }
+
+            function updateStats(){
+                var p = document.getElementById("frameCount");
+                p.innerText = "Frame Count: " + currentFrameNumber;
+
+                var p = document.getElementById("rectangleCount");
+                p.innerText = "Rectangle Count: " + sceneList.length;
+            }
+        </script>
+
+    </head>
+
+    <body onload ="init()">
+        
+        <canvas id="canvasTag" width="300" height="200" style="border:1px solid gray;">
+        </canvas>
+
+        <p id="frameCount">Frame count: 0</p>
+        <br>
+        <p id="rectangleCount">Rectangle count: 0</p>
+
+
+
+    </body>
+
+</html>

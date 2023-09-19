@@ -1,0 +1,421 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.3f1 (55531d7fa82e) revision 5591837'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/baile/OneDrive/Desktop/CST326/project4-pt3/Tower Defense Unity Project
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+50564
+Successfully changed project path to: C:/Users/baile/OneDrive/Desktop/CST326/project4-pt3/Tower Defense Unity Project
+C:/Users/baile/OneDrive/Desktop/CST326/project4-pt3/Tower Defense Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [38324] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2518714026 [EditorId] 2518714026 [Version] 1048832 [Id] WindowsEditor(7,baimill) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [38324] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2518714026 [EditorId] 2518714026 [Version] 1048832 [Id] WindowsEditor(7,baimill) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.3f1 (55531d7fa82e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/baile/OneDrive/Desktop/CST326/project4-pt3/Tower Defense Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014398 seconds.
+- Loaded All Assemblies, in  0.416 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.320 seconds
+Domain Reload Profiling:
+	ReloadAssembly (244ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+				TypeCache.Initialize (156ms)
+					TypeCache.ScanAssembly (154ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.366 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (195ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (167ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+				TypeCache.Initialize (126ms)
+					TypeCache.ScanAssembly (124ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Cannot set VR devices because the platform passed isn't supported by Unity.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 571 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.9 MB). Loaded Objects now: 1067.
+Memory consumption went from 149.0 MB to 148.1 MB.
+Total: 2.843700 ms (FindLiveObjects: 0.078800 ms CreateObjectMapping: 0.015100 ms MarkObjects: 2.425400 ms  DeleteObjects: 0.323200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1702953.515507 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat
+  artifactKey: Guid(654a2c1b911b36647b211a44a46e6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Fronds_2.mat using Guid(654a2c1b911b36647b211a44a46e6d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc32950ef0d4d3e6d166bb2ed9fb0cae') in 0.603186 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.498331 seconds.
+  path: Assets/Fonts/Roboto-Medium.ttf
+  artifactKey: Guid(903d07aa253b7b04b81d9f13e45851c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Roboto-Medium.ttf using Guid(903d07aa253b7b04b81d9f13e45851c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f283f1453f6cb21243aff5c5cae699c') in 0.041945 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.075131 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+  artifactKey: Guid(01cd679a1b9ee48bf9c546f6ce2cb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf using Guid(01cd679a1b9ee48bf9c546f6ce2cb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52db57333ed8e1dcdf3c6b6fe4640a0e') in 0.024196 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.041325 seconds.
+  path: Assets/Fonts/Roboto-ThinItalic.ttf
+  artifactKey: Guid(cb2a7102341fcff4bab0a296b0577500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Roboto-ThinItalic.ttf using Guid(cb2a7102341fcff4bab0a296b0577500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6a7b112a51cfd909a311fb825f569a') in 0.015968 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.026203 seconds.
+  path: Assets/Fonts/Roboto-Regular.ttf
+  artifactKey: Guid(0092f7798b6beb94c80979279fa3c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Roboto-Regular.ttf using Guid(0092f7798b6beb94c80979279fa3c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013a8ac82bb1f431508ca5626b3a99b0') in 0.014200 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.032123 seconds.
+  path: Assets/Fonts/Roboto-LightItalic.ttf
+  artifactKey: Guid(6201149a8ceb19844a2dbc3e378c224d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Roboto-LightItalic.ttf using Guid(6201149a8ceb19844a2dbc3e378c224d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771990a3203fea84fe4f51361cb1fb63') in 0.018131 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.083535 seconds.
+  path: Assets/Fonts/Roboto-Italic.ttf
+  artifactKey: Guid(b61fac44a45a75a41b00c2a3c4a0614a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Roboto-Italic.ttf using Guid(b61fac44a45a75a41b00c2a3c4a0614a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc6bd6be4bce97545b44ca8ce379a32') in 0.014908 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.382230 seconds.
+  path: Assets/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(9ba139044ca1a8247a9b70c61c7c31c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Roboto-Bold.ttf using Guid(9ba139044ca1a8247a9b70c61c7c31c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2373b9c6e0a340e95b098c780658cb') in 0.014460 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.030091 seconds.
+  path: Assets/Fonts/Roboto-Black.ttf
+  artifactKey: Guid(85477e2e9a748bd4f8ed719c5bdb3062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Roboto-Black.ttf using Guid(85477e2e9a748bd4f8ed719c5bdb3062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d48154f4c6091eeef2ad1ed3296a8b7') in 0.015221 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.046299 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat
+  artifactKey: Guid(d5222114580affc49a2af92470232e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/FacingLeaves_4.mat using Guid(d5222114580affc49a2af92470232e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96b288c41352529cf16957b45261322') in 0.050323 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.358162 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat
+  artifactKey: Guid(621e901dcf5ebaf46bce29d18f67194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat using Guid(621e901dcf5ebaf46bce29d18f67194c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dfd71cc6423ce898a16c5fe34f5b81') in 0.079974 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.034598 seconds.
+  path: Assets/Materials/Bullet_Upgraded.mat
+  artifactKey: Guid(827b4843ce57d09479130516c3b40104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Bullet_Upgraded.mat using Guid(827b4843ce57d09479130516c3b40104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2f5a86e35a81ca0ec83f11c904194a') in 0.012164 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.459892 seconds.
+  path: Assets/Materials/BuildEffect.mat
+  artifactKey: Guid(8165789fe91618046aca1997be16d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/BuildEffect.mat using Guid(8165789fe91618046aca1997be16d671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe10ba55bf3ccf6db6bbaaf4e87dfe0') in 0.010823 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.514693 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat
+  artifactKey: Guid(fdb77c3917027234db7a7792019eda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Branches_1.mat using Guid(fdb77c3917027234db7a7792019eda2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6acb10b05ab4dc750817236729e77e') in 0.457327 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.941224 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat
+  artifactKey: Guid(fa40ba727cdc90245aac11f0ff5ead8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat using Guid(fa40ba727cdc90245aac11f0ff5ead8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9525eae82106b1aea2a6c52825145644') in 0.015850 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.693500 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat
+  artifactKey: Guid(4be5b19d42487c24f830c4ee36849a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/Branches_0.mat using Guid(4be5b19d42487c24f830c4ee36849a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b0f7916ab0d0127bccf6b7cfe93a07') in 0.482364 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat
+  artifactKey: Guid(1092dd21af768cb499771bf88709dbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Branches_0.mat using Guid(1092dd21af768cb499771bf88709dbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea30b454078ae1654b6e7aba1df26734') in 0.022930 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat
+  artifactKey: Guid(54ee8e39b634b6d45aae528b6b24e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Branches_0.mat using Guid(54ee8e39b634b6d45aae528b6b24e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9891be19e93a2ad80c4a95681af40d') in 0.013333 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.284801 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat
+  artifactKey: Guid(46160e8fc1456bc4d9fb3de64ba88c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Branches_0.mat using Guid(46160e8fc1456bc4d9fb3de64ba88c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e806cb3ad2b6472cbe45dda0fcc466c') in 0.016288 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.092463 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat
+  artifactKey: Guid(39baceec69bb1ee4fb4194d50e1a6d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_0.mat using Guid(39baceec69bb1ee4fb4194d50e1a6d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf9e93e8332e9ab64a0e6db972ca162') in 0.018819 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.049639 seconds.
+  path: Assets/Imports/Laser Beamer/Materials/Bolts.mat
+  artifactKey: Guid(954197a3c46626d4a84aeff17e0436f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Imports/Laser Beamer/Materials/Bolts.mat using Guid(954197a3c46626d4a84aeff17e0436f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e90fe49a1caaad084bf2ba954bae3ff') in 0.012573 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.082130 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat
+  artifactKey: Guid(6e680dda9368db5418f19388474277a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat using Guid(6e680dda9368db5418f19388474277a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2130580c6fcebc04141db39dabbe380d') in 0.312118 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.461663 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat
+  artifactKey: Guid(d68104aea3d1d084385a1acc7c896247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/Billboard.mat using Guid(d68104aea3d1d084385a1acc7c896247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed02a96d17e03d27a904bbe52fa157a') in 0.018548 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031581 seconds.
+  path: Assets/Imports/Laser Beamer/Materials/Base.mat
+  artifactKey: Guid(2b6ecc7c86bfa4d47a54b97f3fdfea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Imports/Laser Beamer/Materials/Base.mat using Guid(2b6ecc7c86bfa4d47a54b97f3fdfea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269631f4d1f629eb1a2bdbc57da70825') in 0.014044 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.540733 seconds.
+  path: Assets/Standard Assets/SampleScenes/Models/Materials/Asteroid.mat
+  artifactKey: Guid(ace554b28b3c23448817bd8c63e751ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/SampleScenes/Models/Materials/Asteroid.mat using Guid(ace554b28b3c23448817bd8c63e751ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce80df24c88d7f50d16ad762043db828') in 0.012445 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033729 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat
+  artifactKey: Guid(f5a209142cf260f4a96ca747e0e4dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat using Guid(f5a209142cf260f4a96ca747e0e4dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a074e33019079bc8aee1c86c77b6a46') in 0.112099 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.798252 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat
+  artifactKey: Guid(d5b08f0e43171dd468f4fed8bb5d0cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat using Guid(d5b08f0e43171dd468f4fed8bb5d0cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0c4c55b1fd176bac793f15ce6de869') in 0.015423 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033684 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat
+  artifactKey: Guid(6f36a222811073946936cf1cdeb78f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat using Guid(6f36a222811073946936cf1cdeb78f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1468b62da62c788b41be7dab32838c6d') in 0.082815 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

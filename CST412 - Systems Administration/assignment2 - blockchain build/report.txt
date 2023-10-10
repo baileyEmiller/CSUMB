@@ -1,0 +1,12 @@
+abstract:
+Write a program to implement some basic blockchain functionality
+
+compile:
+g++ -o main main.cpp
+
+run:
+./main
+
+When declaring genesis block, use "" as prev hash value
+Hash stored in hex, converted to binary for comparisons in mineBlock() and verify()
+HexToBin() is a modified function originally from geeksforgeeks, cited in code with link

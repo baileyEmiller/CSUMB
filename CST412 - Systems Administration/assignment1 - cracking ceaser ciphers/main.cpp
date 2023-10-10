@@ -7,7 +7,6 @@
 #include <vector>
 #include <map>
 #include <iterator>
-#include <bits/stdc++.h>
 using namespace std;
 
 static const string FILENAME = "sample-secret-message-caesar-ciphertext.txt";
@@ -180,16 +179,6 @@ int main()
     numberofmessages = outerLoopCount;
     ciphertext.close();
 
-    // print ciphertext
-    // for (int i = 0; i < numberofmessages; i++)
-    // {
-    //     for (int k = 0; k < cipheredMessages.at(i).size(); k++)
-    //     {
-    //         cout << cipheredMessages.at(i).at(k) << " ";
-    //     }
-    //     cout << endl;
-    // }
-
     int key[MAX_INPUT_SZ];
     bool encrypted = true;
     for (int i = 0; i < numberofmessages; i++)
@@ -199,9 +188,9 @@ int main()
     for (int i = 0; i < numberofmessages; i++)
     { // for each message
         string shiftingWord;
+        map<int, int> m;
         for (int k = 0; k < cipheredMessages.at(i).size(); k++)
         { // for each word in message
-            map<int, int> m;
             for (int p = 0; p < ALPHABET_SIZE; p++)
             { // for each possible shift
                 shiftingWord = cipheredMessages.at(i).at(k);
@@ -229,14 +218,14 @@ int main()
                     }
                 }
             }
-            int largestFreq = 0;
-            for (map<int, int>::iterator it = m.begin(); it != m.end(); it++)
-            { // each word is deciphered individually and we use frequency analysis to determine which key is the correct one
-                if (largestFreq < it->second)
-                {
-                    largestFreq = it->second;
-                    key[i] = it->first;
-                }
+        }
+        int largestFreq = 0;
+        for (map<int, int>::iterator it = m.begin(); it != m.end(); it++)
+        { // each word is deciphered individually and we use frequency analysis to determine which key is the correct one
+            if (largestFreq < it->second)
+            {
+                largestFreq = it->second;
+                key[i] = it->first;
             }
         }
     }

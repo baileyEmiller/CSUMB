@@ -9,25 +9,10 @@ void finalize_stats(SCHEDULER_STATS* stats) {
     stats->average_turnaround_time = (stats->sum_of_turnaround_times / stats->num_processes_completed);
 }
 
-    // unsigned int num_processes_started;
-    // unsigned int num_processes_completed;
-    // float sum_of_turnaround_times;
-    // float sum_of_response_time;
-    // float average_turnaround_time;
-    // float average_response_time;
-    // float completion_time;
-
 void mark_process_start(SCHEDULER_STATS* stats, PROCESS* p, float curr_time, float time_slice) {
     stats->num_processes_started++;
     stats->sum_of_response_time += (curr_time - p->entry_time);
 }
-
-//     unsigned int id; // Each process should have a unique ID
-//     float length; // Each process has an amount of time it will execute for
-//     enum process_state process_state; // Keeping track of process state
-//     unsigned int priority; // Priority value -- lower means higher priority, with 0 being highest priority
-//     float entry_time; // Entry time of the job
-//     float time_remaining; // Amount of time remaining in the execution
 
 void mark_process_run(SCHEDULER_STATS* stats, PROCESS* p, float curr_time, float time_slice) {
     p->time_remaining -= time_slice;
@@ -56,8 +41,7 @@ PROCESS* priority_process_selector(PROCESS_LIST* pl) {
 
 PROCESS* fifo_process_selector(PROCESS_LIST* pl) {
     if(is_empty(pl)){return NULL;}
-    PROCESS *p;
-    p = pl->processes[0]; //select first process
+    PROCESS *p = pl->processes[0]; //select first process
     for(int i = 0; i < pl->num_processes; i++){
         if(pl->processes[i]->entry_time < p->entry_time){
             p = pl->processes[i];
@@ -68,15 +52,13 @@ PROCESS* fifo_process_selector(PROCESS_LIST* pl) {
 
 PROCESS* rr_process_selector(PROCESS_LIST* pl) {
     if(is_empty(pl)){return NULL;}
-    PROCESS* p;
-    p = get_next(pl);
+    PROCESS* p = get_next(pl);
     return p;
 }
 
 PROCESS* sjf_process_selector(PROCESS_LIST* pl) {
     if(is_empty(pl)){return NULL;}
-    PROCESS *p;
-    p = pl->processes[0]; //select first process
+    PROCESS *p = pl->processes[0]; //select first process
     for(int i = 0; i < pl->num_processes; i++){
         if(pl->processes[i]->length < p->length){
             p = pl->processes[i];
@@ -85,11 +67,9 @@ PROCESS* sjf_process_selector(PROCESS_LIST* pl) {
     return p;
 }
 
-
 PROCESS* lifo_process_selector(PROCESS_LIST* pl) {
     if(is_empty(pl)){return NULL;}
-    PROCESS *p;
-    p = pl->processes[0]; //select first process
+    PROCESS *p = pl->processes[0]; //select first process
     for(int i = 0; i < pl->num_processes; i++){
         if(pl->processes[i]->entry_time > p->entry_time){
             p = pl->processes[i];
@@ -100,8 +80,7 @@ PROCESS* lifo_process_selector(PROCESS_LIST* pl) {
 
 PROCESS* stcf_process_selector(PROCESS_LIST* pl) {
     if(is_empty(pl)){return NULL;}
-    PROCESS *p;
-    p = pl->processes[0]; //select first process
+    PROCESS *p = pl->processes[0]; //select first process
     for(int i = 0; i < pl->num_processes; i++){
         if(pl->processes[i]->time_remaining < p->time_remaining){
             p = pl->processes[i];
@@ -109,4 +88,3 @@ PROCESS* stcf_process_selector(PROCESS_LIST* pl) {
     }
     return p;
 }
-

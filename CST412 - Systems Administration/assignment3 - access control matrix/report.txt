@@ -1,0 +1,8 @@
+to compile
+g++ -o main main.cpp
+
+to run
+./main
+
+The MAX_USERS and MAX_FILES are defined on line 5 and 6 with 5 users and 7 files.
+This needs to be changed in the code if you want more than 7 files or 5 users.
